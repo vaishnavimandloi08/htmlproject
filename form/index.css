@@ -1,0 +1,12 @@
+body {
+    background-color:rgb(187, 187, 187);
+  }
+  #head {
+    text-align: center;
+  }
+  table{
+    width: 330px;
+    height: 500px;
+    text-align: center;
+    margin:auto;
+  }
