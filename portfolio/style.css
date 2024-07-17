@@ -1,0 +1,119 @@
+/* small screen media query */
+@media(min-width:200px) and (max-width:400px){
+    .main{
+        display: block;
+        text-align: center;
+    }
+    .main img{
+        width: 200px;
+        height: 180px;
+        
+    }
+    h1{
+        margin: 0px;
+        color: orangered;
+    }
+}
+
+@media(min-width:400px) and (max-width:800px){
+        .main{
+            display: block;
+            text-align: center;
+        }
+        .main img{
+            width: 200px;
+            height: 180px;
+        }
+        h1{
+            margin: 0px;
+            color: orangered;
+        }
+} 
+
+/* main */
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: rgb(245, 243, 243);
+    margin: 10px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding-bottom: 10px;
+}
+.main img{
+    width: 200px;
+    height: 180px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+h1{
+    margin: 0px;
+    color: orangered;
+    margin-bottom: 10px;
+}
+
+
+/* medium */
+.medium{
+    margin: 10px ;
+    margin-top: 20px;
+    background-color: rgb(245, 243, 243);
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 20px;
+}
+.medium h2{
+    margin: 10px;
+    margin-top: 20px;
+}
+.medium p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Footer */
+
+.footer{
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(245, 243, 243);
+    padding: 20px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.footer>#first{
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+
+.footer>#second{
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+
+.footer>#third{
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
